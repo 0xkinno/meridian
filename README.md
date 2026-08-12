@@ -45,9 +45,9 @@ Below is the verified ledger of onchain actions executed via KeeperHub and recor
 
 Symmetrically aligned interface captures demonstrating Meridian's premium, magazine-grade visual design:
 
-| Control Room Dashboard | Alternating Strategy Spread |
+| Strategies Dashboard | Market Place |
 |:---:|:---:|
-| <img src="docs/screenshots/strategies.png" alt="Control Room Dashboard" width="100%" /> | <img src="docs/screenshots/marketplace.png" alt="Alternating Strategy Spread" width="100%" /> |
+| <img src="docs/screenshots/strategies.png" alt="Strategies Tab" width="100%" /> | <img src="docs/screenshots/marketplace.png" alt="Market Place" width="100%" /> |
 | **Executions Observatory** | **Forensic Audit Ledger** |
 | <img src="docs/screenshots/executions.png" alt="Executions Observatory" width="100%" /> | <img src="docs/screenshots/audit.png" alt="Forensic Audit Ledger" width="100%" /> |
 

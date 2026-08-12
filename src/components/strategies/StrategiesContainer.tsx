@@ -101,8 +101,8 @@ export function StrategiesContainer({ initialStrategies }: { initialStrategies: 
               <p className={styles.descHero}>
                 Proven financial policies, packaged for autonomous execution with strict rules and cross-verified hash logs.
               </p>
+              <Link href="/strategies/new" className={styles.createStrategyBtn}>Create strategy →</Link>
             </div>
-            <Link href="/strategies/new" className={styles.createStrategyBtn}>Create strategy →</Link>
           </header>
         </div>
       </div>

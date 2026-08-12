@@ -23,7 +23,7 @@ export async function POST(request: NextRequest, { params }: RouteContext) {
       chain: strategy.config.chainId === 84532 || strategy.config.chainId === 8453 ? 'base' : 'ethereum',
       inputSchema: { type: 'object', properties: {}, additionalProperties: false },
       outputMapping: { result: '@output' },
-      workflowType: strategy.type === 'yield' || strategy.type === 'rebalance' ? 'read' : 'write',
+      workflowType: 'read',
     });
     const payment = await verifyPaymentRequired(slug);
     await updateStrategy(strategy.id, { marketplaceSlug: listing.slug, marketplacePrice: listing.price });

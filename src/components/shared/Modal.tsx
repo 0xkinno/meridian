@@ -1,0 +1,4 @@
+'use client';
+import type { ReactNode } from 'react';
+export function Modal({ open, title, children, onClose }: { open:boolean; title:string; children:ReactNode; onClose:()=>void }) { if(!open)return null; return <div className="modalBackdrop" role="presentation" onClick={onClose}><section className="modalPanel" role="dialog" aria-modal="true" aria-label={title} onClick={(event)=>event.stopPropagation()}><h2>{title}</h2>{children}</section></div>; }
+

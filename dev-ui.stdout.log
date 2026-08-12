@@ -1,0 +1,57 @@
+
+> meridian-keeperhub@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 7.9s
+ ○ Compiling / ...
+ GET / 200 in 9990ms
+ ✓ Compiled /strategies in 1140ms (526 modules)
+ GET /strategies 200 in 1502ms
+ ○ Compiling /strategies/new ...
+ ✓ Compiled /strategies/new in 994ms (545 modules)
+ GET /strategies/new 200 in 1316ms
+ ○ Compiling /strategies/[id] ...
+ ✓ Compiled /strategies/[id] in 661ms (563 modules)
+ GET /strategies/1072e2f8-cff5-4a52-9b70-ea889dfdc4ad 200 in 1759ms
+ ○ Compiling /executions ...
+ ✓ Compiled /executions in 563ms (559 modules)
+ GET /executions 200 in 819ms
+ ○ Compiling /audit ...
+ ✓ Compiled /audit in 710ms (583 modules)
+ GET /audit 200 in 858ms
+ ○ Compiling /marketplace ...
+ ✓ Compiled /marketplace in 640ms (575 modules)
+ GET /marketplace 200 in 755ms
+ ✓ Compiled in 3s (276 modules)
+ ✓ Compiled in 1166ms (276 modules)
+ ✓ Compiled in 423ms (286 modules)
+ ✓ Compiled in 291ms (286 modules)
+ ✓ Compiled in 489ms (286 modules)
+ ✓ Compiled in 276ms (286 modules)
+ ✓ Compiled in 428ms (286 modules)
+ ✓ Compiled in 456ms (286 modules)
+ ✓ Compiled in 944ms (286 modules)
+ ✓ Compiled in 621ms (286 modules)
+ ✓ Compiled in 601ms (286 modules)
+ ✓ Compiled in 579ms (286 modules)
+ ✓ Compiled in 694ms (286 modules)
+ ✓ Compiled in 330ms (275 modules)
+ ✓ Compiled in 336ms (285 modules)
+ ✓ Compiled in 407ms (285 modules)
+ ✓ Compiled in 370ms (285 modules)
+ ✓ Compiled in 1213ms (285 modules)
+ ✓ Compiled in 362ms (285 modules)
+ ✓ Compiled in 546ms (285 modules)
+ ✓ Compiled in 472ms (285 modules)
+ ✓ Compiled in 660ms (285 modules)
+ ✓ Compiled in 526ms (285 modules)
+ ✓ Compiled in 524ms (285 modules)
+ ✓ Compiled in 944ms (285 modules)
+ ✓ Compiled in 1149ms (285 modules)
+ ✓ Compiled in 893ms (285 modules)
+ ✓ Compiled in 645ms (285 modules)

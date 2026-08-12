@@ -1,0 +1,61 @@
+ ⚠ ./src/app/dashboard.module.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/dashboard.module.css
+Warning
+
+(5:827) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./src/app/dashboard.module.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/dashboard.module.css
+./src/app/dashboard.module.css
+
+./src/app/dashboard.module.css
+Warning
+
+(5:827) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./src/app/dashboard.module.css
+./src/app/page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|javascript/auto|C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\next-flight-css-loader.js??ruleSet[1].rules[14].oneOf[7].use[0]!C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[7].use[1]!C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[7].use[2]!C:\Users\hp\Downloads\Meridian KeeperHub\src\app\dashboard.module.css|rsc': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[7].use[2]!C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[7].use[3]!C:\Users\hp\Downloads\Meridian KeeperHub\src\app\dashboard.module.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+ ⚠ ./src/app/dashboard.module.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/dashboard.module.css
+Warning
+
+(5:827) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./src/app/dashboard.module.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/dashboard.module.css
+./src/app/dashboard.module.css
+
+./src/app/dashboard.module.css
+Warning
+
+(5:827) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./src/app/dashboard.module.css
+./src/app/page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\hp\Downloads\Meridian KeeperHub\.next\cache\webpack\client-development\7.pack.gz_' -> 'C:\Users\hp\Downloads\Meridian KeeperHub\.next\cache\webpack\client-development\7.pack.gz'
+ ⨯ ./src/app/pages.module.css:870:1
+Syntax error: C:\Users\hp\Downloads\Meridian KeeperHub\src\app\pages.module.css Unexpected }
+
+ [90m 868 | [39m  line-height[33m:[39m 1.5[33m;[39m
+ [90m 869 | [39m[33m}[39m
+[1m[31m>[39m[22m[90m 870 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 871 | [39m
+ [90m 872 | [39m[90m/* Premium Strategies Journal Spreads */[39m
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[7].use[2]!C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[7].use[3]!C:\Users\hp\Downloads\Meridian KeeperHub\src\app\pages.module.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ ⨯ ./src/app/pages.module.css:870:1
+Syntax error: C:\Users\hp\Downloads\Meridian KeeperHub\src\app\pages.module.css Unexpected }
+
+ [90m 868 | [39m  line-height[33m:[39m 1.5[33m;[39m
+ [90m 869 | [39m[33m}[39m
+[1m[31m>[39m[22m[90m 870 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 871 | [39m
+ [90m 872 | [39m[90m/* Premium Strategies Journal Spreads */[39m
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[7].use[2]!C:\Users\hp\Downloads\Meridian KeeperHub\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[7].use[3]!C:\Users\hp\Downloads\Meridian KeeperHub\src\app\pages.module.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError

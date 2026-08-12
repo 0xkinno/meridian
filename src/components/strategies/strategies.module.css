@@ -1,0 +1,411 @@
+.container {
+  width: 100%;
+}
+
+.headerHero {
+  position: relative;
+  background-image: url(/images/trade_chart_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  border: 1px solid var(--hairline);
+  overflow: hidden;
+  margin-bottom: 56px;
+  box-shadow: var(--shadow-sm), 0 20px 50px rgba(0,0,0,0.12);
+}
+
+.headerHeroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg, 
+    rgba(11, 11, 10, 0.99) 0%, 
+    rgba(11, 11, 10, 0.92) 40%, 
+    rgba(11, 11, 10, 0.50) 75%, 
+    rgba(11, 11, 10, 0.15) 100%
+  );
+  z-index: 1;
+}
+
+.headerHeroContent {
+  position: relative;
+  z-index: 2;
+  padding: clamp(40px, 6vw, 80px) clamp(24px, 5vw, 56px);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1.35fr .65fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.titleHero {
+  margin: 0 0 24px;
+  font-size: clamp(3.5rem, 7vw, 6.8rem);
+  font-family: var(--font-display);
+  font-weight: 400;
+  color: var(--text-on-dark);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.descHero {
+  max-width: 610px;
+  margin: 0;
+  color: #e58b3c;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-weight: 500;
+  text-shadow: 0 0 10px rgba(229, 139, 60, 0.5);
+}
+
+.eyebrowHero {
+  margin-bottom: 16px;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: .66rem;
+  font-weight: 600;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.serifItalic {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.createStrategyBtn {
+  justify-self: end;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 24px;
+  border-radius: 30px;
+  color: var(--text-inverse);
+  background: var(--text-primary);
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  transition: all var(--transition-fast);
+}
+
+.createStrategyBtn:hover {
+  background: var(--accent);
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 12px var(--accent-glow-strong);
+}
+
+.splitLayout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(40px, 5vw, 88px);
+  align-items: start;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionHeading {
+  margin: 0 0 24px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 12px;
+}
+
+.strategiesList {
+  display: flex;
+  flex-direction: column;
+}
+
+.strategyRow {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  align-items: center;
+  padding: 24px 16px;
+  border-bottom: 1px solid var(--hairline);
+  cursor: pointer;
+  background: transparent;
+  transition: all var(--transition-base);
+  border-radius: 6px;
+}
+
+.strategyRow:hover, .strategyRowActive {
+  background-color: var(--accent-light);
+  padding-left: 24px;
+  padding-right: 8px;
+}
+
+.rowLeft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rowIdx {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.rowText {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: color var(--transition-fast);
+}
+
+.strategyRowActive .rowTitle {
+  font-weight: 600;
+  color: #0b0b0a;
+}
+
+.rowDesc {
+  margin: 4px 0 0 0;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.rowRight {
+  display: grid;
+  grid-template-columns: 90px 80px 100px;
+  align-items: center;
+  gap: 16px;
+  justify-items: end;
+}
+
+.rowType {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.rowLink {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--accent-text);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.65;
+  transition: opacity var(--transition-fast);
+}
+
+.strategyRow:hover .rowLink, .strategyRowActive .rowLink {
+  opacity: 1;
+}
+
+/* Right Side: Strategy Blueprint Artifact */
+.rightCol {
+  position: sticky;
+  top: 96px;
+}
+
+.blueprintCard {
+  position: relative;
+  background-image: url(/images/strategy_blueprint.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  border: 1px solid rgba(45, 122, 58, 0.2);
+  overflow: hidden;
+  box-shadow: var(--shadow-md), 0 15px 35px rgba(0,0,0,0.06);
+  min-height: 520px;
+}
+
+.blueprintOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(232, 240, 231, 0.90); /* Pale sage translucent paper vellum */
+  z-index: 1;
+  backdrop-filter: blur(2px);
+}
+
+.blueprintContent {
+  position: relative;
+  z-index: 2;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 520px;
+  color: #1a2a1a;
+}
+
+.blueprintTop {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(45, 122, 58, 0.15);
+  padding-bottom: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #2a5a2a;
+}
+
+.figLabel {
+  color: var(--accent-text);
+}
+
+.blueprintMeta {
+  margin: 24px 0;
+}
+
+.blueprintTitle {
+  margin: 0 0 12px;
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #0b0b0a;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.metaBadgeRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: #4a5a4a;
+}
+
+.monoLabel {
+  color: #6a7a6a;
+}
+
+.monoVal {
+  font-weight: 600;
+  color: #1a2a1a;
+}
+
+.blueprintFlow {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.blueprintNodeWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.blueprintNode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(45, 122, 58, 0.12);
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  transition: all var(--transition-fast);
+}
+
+.blueprintNode:hover {
+  background: rgba(255, 255, 255, 0.90);
+  border-color: rgba(45, 122, 58, 0.3);
+  box-shadow: 0 2px 8px rgba(45, 122, 58, 0.08);
+}
+
+.nodeStep {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.nodeTitle {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #3a4a3a;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.nodeValue {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: #0b0b0a;
+  font-weight: 500;
+}
+
+.blueprintConnector {
+  width: 1px;
+  height: 8px;
+  background: rgba(45, 122, 58, 0.25);
+  margin-left: 24px;
+}
+
+.blueprintCaption {
+  margin: 0;
+  border-top: 1px solid rgba(45, 122, 58, 0.15);
+  padding-top: 12px;
+  font-size: 0.72rem;
+  color: #4a5a4a;
+  font-style: italic;
+}
+
+.blueprintEmpty {
+  display: grid;
+  place-content: center;
+  min-height: 200px;
+  color: #5a6a5a;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media(max-width: 1050px) {
+  .splitLayout {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  
+  .rightCol {
+    position: static;
+  }
+}
+
+@media(max-width: 700px) {
+  .strategyRow {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .rowRight {
+    justify-items: start;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .header {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .createStrategyBtn {
+    justify-self: start;
+  }
+}

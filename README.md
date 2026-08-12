@@ -47,7 +47,7 @@ Symmetrically aligned interface captures demonstrating Meridian's premium, magaz
 
 | Control Room Dashboard | Alternating Strategy Spread |
 |:---:|:---:|
-| <img src="docs/screenshots/meridian-banner.png" alt="Control Room Dashboard" width="100%" /> | <img src="docs/screenshots/marketplace.png" alt="Alternating Strategy Spread" width="100%" /> |
+| <img src="docs/screenshots/strategies.png" alt="Control Room Dashboard" width="100%" /> | <img src="docs/screenshots/marketplace.png" alt="Alternating Strategy Spread" width="100%" /> |
 | **Executions Observatory** | **Forensic Audit Ledger** |
 | <img src="docs/screenshots/executions.png" alt="Executions Observatory" width="100%" /> | <img src="docs/screenshots/audit.png" alt="Forensic Audit Ledger" width="100%" /> |
 

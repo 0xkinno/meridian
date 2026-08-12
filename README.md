@@ -23,6 +23,16 @@
 
 ---
 
+## Live Links
+
+| Resource | Link |
+|---|---|
+| **Live Site** | [https://meridian-keeper-hub.vercel.app/](https://meridian-keeper-hub.vercel.app/) |
+| **GitHub** | [https://github.com/0xkinno/meridian](https://github.com/0xkinno/meridian) |
+| **Demo Video** | [Watch on YouTube](#) |
+
+---
+
 ## Live Demonstration Milestones
 
 Below is the verified ledger of onchain actions executed via KeeperHub and recorded in Meridian's cryptographic audit ledger during live testnet milestones:

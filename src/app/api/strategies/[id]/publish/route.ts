@@ -14,6 +14,12 @@ export async function POST(request: NextRequest, { params }: RouteContext) {
   const body = await request.json().catch(() => ({})) as { slug?: string; price?: string };
   const slug = body.slug || `meridian-${strategy.type}-${strategy.id.slice(0, 8)}`;
   const price = body.price || '0.05';
+    const finalNodeId = strategy.type === 'yield'
+      ? 'read-rewards'
+      : strategy.type === 'rebalance'
+      ? 'check-token'
+      : 'transfer';
+
   try {
     const listing = await publishToMarketplace({
       workflowId: strategy.keeperHubWorkflowId,
@@ -22,7 +28,7 @@ export async function POST(request: NextRequest, { params }: RouteContext) {
       category: 'defi',
       chain: strategy.config.chainId === 84532 || strategy.config.chainId === 8453 ? 'base' : 'ethereum',
       inputSchema: { type: 'object', properties: {}, additionalProperties: false },
-      outputMapping: { result: '@output' },
+      outputMapping: { result: `@${finalNodeId}` },
       workflowType: 'read',
     });
     const payment = await verifyPaymentRequired(slug);

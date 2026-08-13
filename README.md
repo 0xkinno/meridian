@@ -29,7 +29,7 @@
 |---|---|
 | **Live Site** | [https://meridian-keeper-hub.vercel.app/](https://meridian-keeper-hub.vercel.app/) |
 | **GitHub** | [https://github.com/0xkinno/meridian](https://github.com/0xkinno/meridian) |
-| **Demo Video** | [Watch on YouTube](#) |
+| **Demo Video** | [Watch on YouTube](https://youtu.be/wau9uV-OCPU?si=NmOQ0FKcWg9F8rlp) |
 
 ---
 
